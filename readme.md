@@ -1,4 +1,4 @@
-<h1 align="center" style="border-bottom: none;">🔥 Neutral</h1>
+<h1 align="center">🔥 Neutral</h1>
 
 <p align="center">
   <strong>A minimalistic stack / framework for modern applications.</strong>
