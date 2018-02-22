@@ -38,6 +38,14 @@ Well, there are about a trillion frameworks out there, it does not matter if the
  - __Minimal tooling__: Neutral comes with it's very own toolchain, powered by [browserify](browserify.org) and [rollup](rollupjs.org).
  - __Isomorphic__: Neutral does not care if it's running on the server or on the client
 
+## Philosophy
+
+I believe that development should be easy, fast and accessible. A framework is something very personal, because everyone has different opinions, that's why neutral is built around useful presets, not opinions. Frameworks should be built to help you, not to force you to built you apps how the framework's developers wanted you to.
+
+Everything should be reusable, that's why even neutral is built with reusable components. Your applications should consist of small reusable components. A component is just a function, not a class!
+
+You should not have to lean a huge new api, just to use a new framework, neutral only comes with a few methods and only mostly uses technologies you already know, this way getting started is easy.
+
 ## Parts and modules
 
  - A router
