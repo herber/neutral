@@ -6,11 +6,11 @@
 
 <p align="center">
   <a href="https://nodejs.org/api/documentation.html#documentation_stability_index">
-    <img src="https://img.shields.io/badge/stability-experimental-orange.svg?style=flat-square"
+    <img src="https://img.shields.io/badge/stability-experimental-orange.svg?style=flat-square&colorA=000000"
       alt="Stability" />
   </a>
   <a href="https://github.com/herber/neutral">
-    <img src="https://img.shields.io/badge/package-neutral-304FFE.svg"
+    <img src="https://img.shields.io/badge/package-neutral-304FFE.svg?style=flat-square&colorA=000000"
       alt="API stability" />
   </a>
 </p>
