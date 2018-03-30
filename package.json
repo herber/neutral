@@ -1,0 +1,41 @@
+{
+	"name": "neutral",
+	"version": "0.0.0",
+	"description": "Minimalist frontend framework",
+	"license": "MIT",
+	"repository": "herber/neutral",
+	"author": {
+		"name": "Tobias Herber",
+		"email": "tobihrbr@gmail.com",
+		"url": "tobihrbr.com"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "npm run lint && npm run jest",
+		"lint": "formatted",
+		"jest": "jest",
+		"build": ""
+	},
+	"files": [
+		"dist"
+	],
+	"keywords": [
+		""
+	],
+	"dependencies": {
+		"assigner": "^1.0.0",
+		"document-ready": "^2.0.1",
+		"mitt": "^1.1.3",
+		"nation": "^1.2.0",
+		"route-changed": "^1.0.0",
+		"shipharbor": "^1.0.0",
+		"xou": "^2.0.2"
+	},
+	"devDependencies": {
+		"formatted": "^1.0.0",
+		"jest": "^22.4.2",
+		"microbundle": "^0.4.4"
+	}
+}
