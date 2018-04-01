@@ -51,3 +51,5 @@ You should not have to lean a huge new api, just to use a new framework, neutral
  - A router
  - Something for state management
  - A tool for morphing dom nodes
+
+<img src="https://i.imgur.com/Ke5bB9X.png" alt="Model" />
