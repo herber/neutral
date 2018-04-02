@@ -1,9 +1,10 @@
 {
   "name": "neutral",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Minimalist frontend framework",
   "license": "MIT",
   "repository": "herber/neutral",
+  "main": "./lib/index.js",
   "author": {
     "name": "Tobias Herber",
     "email": "tobihrbr@gmail.com",
@@ -13,16 +14,15 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "npm run lint && npm run jest",
-    "lint": "formatted",
-    "jest": "jest",
-    "build": ""
+    "test": "formatted && jest",
+    "build": "browserify ./lib/index.js --standalone -o dist/bundle.js -t [ babelify --presets [ env ] ]"
   },
   "files": [
-    "dist"
+    "lib"
   ],
   "keywords": [
-    ""
+    "frontend",
+    "framework"
   ],
   "dependencies": {
     "document-ready": "^2.0.1",
@@ -34,9 +34,10 @@
     "xou": "^2.0.2"
   },
   "devDependencies": {
+    "babelify": "^8.0.0",
+    "browserify": "^16.1.1",
     "formatted": "^1.0.0",
     "jest": "^22.4.2",
-    "microbundle": "^0.4.4",
     "vxv": "^3.1.6"
   }
 }
