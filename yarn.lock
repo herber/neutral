@@ -206,6 +206,10 @@ asn1@~0.2.3:
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/asn1/-/asn1-0.2.3.tgz#dac8787713c9966849fc8180777ebe9c1ddf3b86"
 
+assemble-template@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/assemble-template/-/assemble-template-1.0.0.tgz#dbdd2bd341fa3f74b8b6bd7aac47ccc22f14a720"
+
 assert-plus@1.0.0, assert-plus@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/assert-plus/-/assert-plus-1.0.0.tgz#f12e0f3c5d77b0b1cdd9146942e4e96c1e4dd525"
@@ -4131,6 +4135,10 @@ style-inject@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/style-inject/-/style-inject-0.3.0.tgz#d21c477affec91811cc82355832a700d22bf8dd3"
 
+stylis@^3.4.10:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/stylis/-/stylis-3.5.0.tgz#016fa239663d77f868fef5b67cf201c4b7c701e1"
+
 supports-color@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-2.0.0.tgz#535d045ce6b6363fa40117084629995e9df324c7"
@@ -4373,6 +4381,34 @@ verror@1.10.0:
 vlq@^0.2.1, vlq@^0.2.2:
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/vlq/-/vlq-0.2.3.tgz#8f3e4328cf63b1540c0d67e1b2778386f8975b26"
+
+vxv-hash@^3.1.6:
+  version "3.1.6"
+  resolved "https://registry.yarnpkg.com/vxv-hash/-/vxv-hash-3.1.6.tgz#6e9c66e357c2d693bf9eae190372470cf8e6beb6"
+
+vxv-insert@^3.1.6:
+  version "3.1.6"
+  resolved "https://registry.yarnpkg.com/vxv-insert/-/vxv-insert-3.1.6.tgz#d0e2101957905e400d9db63dca9d77e5a19098a0"
+
+vxv-parser@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/vxv-parser/-/vxv-parser-3.0.0.tgz#f10e4ea3c7a67e6356a4d83ebef919fafdd6dbb9"
+  dependencies:
+    stylis "^3.4.10"
+
+vxv-state@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/vxv-state/-/vxv-state-3.0.0.tgz#20d7599f0fbf4ea53f442b42039728dedbb6de4e"
+
+vxv@^3.1.6:
+  version "3.1.6"
+  resolved "https://registry.yarnpkg.com/vxv/-/vxv-3.1.6.tgz#70b1577c632a196fa996350d6977bffb1a9f2613"
+  dependencies:
+    assemble-template "^1.0.0"
+    vxv-hash "^3.1.6"
+    vxv-insert "^3.1.6"
+    vxv-parser "^3.0.0"
+    vxv-state "^3.0.0"
 
 w3c-hr-time@^1.0.1:
   version "1.0.1"
