@@ -1,0 +1,188 @@
+dependencies:
+  neutral: 0.0.3
+  vxv: 3.1.6
+  xou: 2.0.2
+packages:
+  /@arr/every/1.0.0:
+    dev: false
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha1-MU+BaPUK5IoDLP2tX9tDb0ZKl6w=
+  /@arr/filter/1.0.0:
+    dev: false
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha1-PXCQLem1Qku11c7sAP0F89Y15Q8=
+  /assemble-template/1.0.0:
+    dev: false
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha512-+3sSZciiRdUX/nfpIlE6r+KHqrA08aQVgSD5ckCrcrIXMwQKyYKYkU6lvdIEbG2giF9t+I/6KdD6KJlLd76IIg==
+  /assigner/1.0.0:
+    dev: false
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha512-Q7umKoVWHMLB3K5yHjG7Plgew/rQVJJo2S5E7i5aB22lKzfver7Sq2YCV11Fro0c7HMYR/hiEOVjBjfhbXLIew==
+  /document-ready/2.0.1:
+    dev: false
+    resolution:
+      integrity: sha1-PjvzHTI1uU4jLnssX6GmNOhzuuQ=
+  /hyperscript-attribute-to-property/1.0.0:
+    dev: false
+    resolution:
+      integrity: sha1-glMI1Ju44pV5I/cxmBvMgRytev8=
+  /hyperx/2.4.0:
+    dependencies:
+      hyperscript-attribute-to-property: 1.0.0
+    dev: false
+    resolution:
+      integrity: sha512-43jbOQfVkm9U0oAyBZ4Vt2eB0hZWS5EyrOhR3ZbgUrcprutGu9s/C476OVFL3QU1iynKO5s9kZsWrZm19gJKjg==
+  /matchit/1.0.5:
+    dependencies:
+      '@arr/every': 1.0.0
+      '@arr/filter': 1.0.0
+    dev: false
+    engines:
+      node: '>=6'
+    resolution:
+      integrity: sha512-fTFMvxkaDmwOTyzDXoJxgytQxyJJN+yDrEGDvISNvU7nnwlZFkXS4P7cJVf9XAvYcBohCfymHZdJZkH/HBKIhA==
+  /mitt/1.1.3:
+    dev: false
+    resolution:
+      integrity: sha512-mUDCnVNsAi+eD6qA0HkRkwYczbLHJ49z17BGe2PYRhZL4wpZUFZGJHU7/5tmvohoma+Hdn0Vh/oJTiPEmgSruA==
+  /nanoassert/1.1.0:
+    dev: false
+    resolution:
+      integrity: sha1-TzFS4JVA/eKMdvRLGbvNHVpCR40=
+  /nanohref/3.0.1:
+    dev: false
+    resolution:
+      integrity: sha512-YfDhNcglFDIISfKVnXHovDaaglTauD2ThidaTZuyV6NE0lQMvGs5UfSoa1GvX6Nd9p2TfFeYzzc+TtjH+htu+Q==
+  /nanomorph/5.1.3:
+    dependencies:
+      nanoassert: 1.1.0
+    dev: false
+    resolution:
+      integrity: sha512-VydkKjFWU/DAO0R10awFASRNXQKHrZUMdMIiNcdmWm+IhuifuPOw/dDtpiQ1cNROF8f3ATPrcKRVarEayQJOqA==
+  /nation/1.3.0:
+    dependencies:
+      assigner: 1.0.0
+    dev: false
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha512-Zimk2jxlPDWg+VVn/DEjnOG683qjdisF/VRpn9U2Ze/AqsuUq7WE8kItng+VRUhPc1ivr+Y0dEnyh40Tywj4gw==
+  /neutral/0.0.3:
+    dependencies:
+      document-ready: 2.0.1
+      mitt: 1.1.3
+      nanohref: 3.0.1
+      nation: 1.3.0
+      route-changed: 1.0.2
+      shipharbor: 1.0.0
+      xou: 2.0.2
+    dev: false
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha1-2TsAFk1ZX1Re8r541Bcjr14z9+0=
+  /route-changed/1.0.2:
+    dev: false
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha512-92sJ7pIGntGrF/1uo2hnwnHr4wdG1lveWd3m7e1Pk60D9oJ7VgZE0NRgHPqN7twoM+N1Ocy5daTwxuvSGS/eAw==
+  /shipharbor/1.0.0:
+    dependencies:
+      matchit: 1.0.5
+    dev: false
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha512-w5ltXt0LCbe5tR6LnhG9hB1FD3L8NVDwJbPWSmRkSMol3CPikSCVrddcMGCbw/x+Ouk7N8j5sgep+b1pEKhTwA==
+  /stylis/3.5.0:
+    dev: false
+    resolution:
+      integrity: sha512-pP7yXN6dwMzAR29Q0mBrabPCe0/mNO1MSr93bhay+hcZondvMMTpeGyd8nbhYJdyperNT2DRxONQuUGcJr5iPw==
+  /vxv-hash/3.1.6:
+    dev: false
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha512-ncDxeJCiO8Iw8KfxN3NsWOu+UCh/RpBD1Tzhzemhp0PDiPJ/7pT/uYC8KbKPyvJTPZhUp9F43FhjmeqK2jVTOA==
+  /vxv-insert/3.1.6:
+    dev: false
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha512-89SnG/EpvS6C504jGTzKvaHPBUoMs1EFjXwA4EQVK4q7Sek6Sn3s90ynP2aXfMt07WK2l1HbKdPvlP/g+Da1PQ==
+  /vxv-parser/3.0.0:
+    dependencies:
+      stylis: 3.5.0
+    dev: false
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha512-fWLPjTC14FIqWAWeQ1HeIMmsRqqhUeCgcFBwgq2mLmMu6H/NwCvO4wUX6KAEcXdEQWWYU38nuOIuHNOz7HVzlA==
+  /vxv-state/3.0.0:
+    dev: false
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha512-vdbp+JOa9OzdcBEQTl36xns2W2zIQCghPMgG3P1faVeh6RHMoe8Xv80B6O5t6JTGeMysHjJ1+U3lqhWuHDTHnQ==
+  /vxv/3.1.6:
+    dependencies:
+      assemble-template: 1.0.0
+      vxv-hash: 3.1.6
+      vxv-insert: 3.1.6
+      vxv-parser: 3.0.0
+      vxv-state: 3.0.0
+    dev: false
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha512-mpFhd7wMUBqnbPvGwlelI+jt6XQUn+H0YQOxkc9cFQGJyB17vcs1C9w2ISA/HZVUStz6jIX964kXKyE8EHJkbg==
+  /xou-browser/2.0.2:
+    dependencies:
+      hyperx: 2.4.0
+      xou-utils: 2.0.0
+    dev: false
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha512-V+TGrOjVSgDD+y0fo8Ba0fjBmHR3XoblkXmtp4sc8KimAOmToNvKw8+IalpTnZDww7C1srcsXixWVbD4l0I0lA==
+  /xou-server/2.0.0:
+    dependencies:
+      xou-utils: 2.0.0
+    dev: false
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha512-nBarxlTxWCLxRiA7RZ/1dS1gzSOr1BK5UQb6jx303yyNwkCwcpaRRRULrGXhslCgiUyREsIC60x7XBn1UvTfyQ==
+  /xou-utils/2.0.0:
+    dev: false
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha512-i/gTaJFJSEVr/yVG6OCw2BQ/dzpFSwMg8n1IqI1WDvjG/uOOpqXWsxUiVNtgYtUDq9GdkYKsIer1gaHqAeGzqg==
+  /xou/2.0.2:
+    dependencies:
+      nanomorph: 5.1.3
+      xou-browser: 2.0.2
+      xou-server: 2.0.0
+    dev: false
+    engines:
+      node: '>=8'
+    resolution:
+      integrity: sha512-fqUsuRYO5rC3zPxg+U4+GKXa+mgvEOVB5Bxva2a9OwlhLhLuiZnd5RRohuebfYB3b6cSZDQMYZMQwgaXCe01Xw==
+registry: 'https://registry.npmjs.org/'
+shrinkwrapMinorVersion: 4
+shrinkwrapVersion: 3
+specifiers:
+  neutral: ^0.0.3
+  vxv: ^3.1.6
+  xou: ^2.0.2
