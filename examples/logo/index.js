@@ -6,7 +6,7 @@ vxv`
 :global(body) {
   background: #cdecff;
 }
-`
+`;
 
 const homeStyle = vxv`
   font-family: sans-serif;
@@ -22,9 +22,9 @@ app.state.setState({
 });
 
 app.route('/', () => {
-  return html`<div class="${ homeStyle }">
+  return html`<div class="${homeStyle}">
     <h1>🚀 Neutral</h1>
   </div>`;
-})
+});
 
 app.mount(document.body);
