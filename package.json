@@ -1,23 +1,27 @@
 {
   "name": "neutral",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Minimalist frontend framework",
   "license": "MIT",
   "repository": "herber/neutral",
-  "main": "./lib/index.js",
+  "source": "lib/index.js",
+  "main": "dist/neutral.js",
+  "module": "dist/neutral.m.js",
+  "browser": "dist/neutral.umd.js",
   "author": {
     "name": "Tobias Herber",
     "email": "tobihrbr@gmail.com",
     "url": "tobihrbr.com"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">=8"
   },
   "scripts": {
-    "test": "formatted && jest",
-    "build": "browserify ./lib/index.js --standalone -o dist/bundle.js -t [ babelify --presets [ env ] ]"
+    "test": "formatted && npm run build && jest",
+    "build": "rollup -c"
   },
   "files": [
+    "dist",
     "lib"
   ],
   "keywords": [
@@ -34,10 +38,30 @@
     "xou": "^2.0.2"
   },
   "devDependencies": {
-    "babelify": "^8.0.0",
-    "browserify": "^16.1.1",
+    "assert": "^1.4.1",
     "formatted": "^1.0.0",
     "jest": "^22.4.2",
+    "rollup": "^0.57.1",
+    "rollup-plugin-commonjs": "^9.1.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-resolve": "^3.3.0",
     "vxv": "^3.1.6"
+  },
+  "formatted": {
+    "ignore": [
+      "**/node_modules/**",
+      "**/dist/**"
+    ]
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageDirectory": "./coverage",
+    "coverageReporters": [
+      "lcov",
+      "text"
+    ],
+    "testMatch": [
+      "**/test/**"
+    ]
   }
 }
