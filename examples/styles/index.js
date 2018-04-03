@@ -8,7 +8,7 @@ vxv`
 :global(body) {
   background: mistyrose;
 }
-`
+`;
 
 const homeStyle = vxv`
   font-family: sans-serif;
@@ -22,7 +22,7 @@ const homeStyle = vxv`
 `;
 
 app.route('/', () => {
-  return html`<div class="${ homeStyle }">
+  return html`<div class="${homeStyle}">
     <h1><a href="https://github.com/herber/neutral">Neutral</a> + <a href="https://github.com/herber/vxv">VXV</a></h1>
     <p>Neutral handles the content and the functionality - VXV handles the styles.</p>
   </div>`;
