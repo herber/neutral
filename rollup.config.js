@@ -20,7 +20,7 @@ export default [
         preferBuiltins: true
       }), // so Rollup can find `ms`
       commonjs(), // so Rollup can convert `ms` to an ES module
-      builtins(),
+      // builtins(),
       buble({ transforms: { templateString: false } })
     ]
   },
