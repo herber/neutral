@@ -24,6 +24,14 @@
     esutils "^2.0.2"
     js-tokens "^3.0.0"
 
+"@document/link@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@document/link/-/link-1.0.0.tgz#0c69841d03fd7cbaae7fdf4798065d1575cf14e3"
+
+"@document/ready@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@document/ready/-/ready-1.0.0.tgz#aac39ac2f19b42d25f7ab56d84cbb1ee6a62bc0f"
+
 "@types/acorn@^4.0.3":
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/@types/acorn/-/acorn-4.0.3.tgz#d1f3e738dde52536f9aad3d3380d14e448820afd"
@@ -1002,10 +1010,6 @@ diffie-hellman@^5.0.0:
     bn.js "^4.1.0"
     miller-rabin "^4.0.0"
     randombytes "^2.0.0"
-
-document-ready@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/document-ready/-/document-ready-2.0.1.tgz#3e3bf31d3235b94e232e7b2c5fa1a634e873bae4"
 
 domexception@^1.0.0:
   version "1.0.1"
@@ -2665,10 +2669,6 @@ nan@^2.3.0:
 nanoassert@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/nanoassert/-/nanoassert-1.1.0.tgz#4f3152e09540fde28c76f44b19bbcd1d5a42478d"
-
-nanohref@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/nanohref/-/nanohref-3.0.1.tgz#3879428e4fa80b7d5484692471cfa0b4a3348f8e"
 
 nanomatch@^1.2.9:
   version "1.2.9"
